@@ -36,7 +36,7 @@ function showProfile(data) {
                 <p class = "follow-section">${data.followers} followers ${data.following} following</p>
 
                 <button>
-                        <a href=${data.html_url}>
+                        <a target="_blank" href=${data.html_url}>
                             Do checkout Profile
                         </a>
                 </button>
@@ -96,7 +96,9 @@ async function showReposInfo(userName) {
                     </div>
                     <div class="card-text">
                         <button>
-                            <a href=${sortedProjects[i].html_url}>
+                            <a target="_blank" href=${
+                              sortedProjects[i].html_url
+                            }>
                                 Do checkout Project
                             </a>
                         </button>
