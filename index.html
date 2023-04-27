@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Profile Wrapper</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="src/app.js" defer></script>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1>Github Profile Wrapper</h1>
+        <input type="text" id="userName" placeholder="Github Username" />
+        <button id="showDetails">Show Details</button>
+      </div>
+
+      <div id="profileInfo"></div>
+
+      <div class="repoHead">
+        <div style="display: none;" class="sort-container">
+            <span class="headline">Top repositories by: </span>
+            <select id="sortOption">
+              <option value="stars">Stars</option>
+              <option value="forks">Forks</option>
+              <option value="size">Size</option>
+            </select>
+          </div>
+
+      <div id="reposInfo"></div>
+    </div>
+  </body>
+</html>

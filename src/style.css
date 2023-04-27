@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0e0e0e;
+  color: #d4d4d4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 60vw;
+  min-width: 330px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+input,
+button {
+  margin: 12px auto;
+  padding: 6px 12px;
+}
+
+button {
+  background-color: #338fff;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #063d81;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card {
+  width: 300px;
+  background: #18191c;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: 12px;
+  margin: 20px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.card-img,
+img {
+  margin: 5px auto;
+  width: 200px;
+  border-radius: 50%;
+}
+
+img {
+  border: 4px solid #338fff;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.card-subHeading {
+  font-size: 14px;
+  color: #f4f4f4;
+  margin: 1rem 0;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 600;
+}
+
+.card-description {
+  height: 100px;
+  overflow: hidden;
+}
+
+#reposInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#repoInfo .card {
+  border: 1px solid #ff0000;
+}
+
+.follow-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.repoHead {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.headline {
+  font-size: 24px;
+}
+
+#sortOption {
+  font-size: 20px;
+}
